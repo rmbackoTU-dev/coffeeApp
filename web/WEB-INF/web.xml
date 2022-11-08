@@ -87,7 +87,7 @@
     -->
 
     <servlet>
-      <servlet-name>Coffee App</servlet-name>
+      <servlet-name>Coffee Selector</servlet-name>
       <servlet-class>com.example.web.CoffeeSelect</servlet-class>
       <description>This servlet is the main functionality of the application and 
       takes selections the user makes in a form and gives a coffee suggestion</description>
@@ -113,7 +113,7 @@
     -->
 
     <servlet-mapping>
-      <servlet-name>Ch3 Beer</servlet-name>
+      <servlet-name>Coffee Selector</servlet-name>
       <url-pattern>/SelectCoffee.do</url-pattern>
     </servlet-mapping>
 
